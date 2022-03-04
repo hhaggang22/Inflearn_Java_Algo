@@ -16,7 +16,7 @@ public class Main {
         return answer;
     }
 
-    public static void main(String[] args) {
+public static void main(String[] args) {
 
         Main T = new Main();
 
@@ -25,5 +25,6 @@ public class Main {
         char c = in.next().charAt(0);
 
         System.out.print(T.solution(str, c));
-
+    }
+}
     
