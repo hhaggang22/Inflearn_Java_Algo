@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Q1 {
 
     public int solution(String str, char c) {
         int answer = 0;
@@ -8,17 +8,17 @@ public class Main {
         str = str.toUpperCase();
         c = Character.toUpperCase(c);
 
-        for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i) == c)
+        for (char s : str.toCharArray())  {
+            if  (s == c)
+                
                 answer++;
         }
-
         return answer;
     }
 
 public static void main(String[] args) {
 
-        Main T = new Main();
+        Q1 T = new Q1();
 
         Scanner in = new Scanner(System.in);
         String str = in.next();
@@ -27,4 +27,3 @@ public static void main(String[] args) {
         System.out.print(T.solution(str, c));
     }
 }
-    
