@@ -5,7 +5,7 @@ public class Q9 {
         String tmp = "";
         int answer = 0;
 
-        /*
+        /* 내 답
          * tmp = str.toUpperCase().replaceAll("[A-Z]","");
          */
 
