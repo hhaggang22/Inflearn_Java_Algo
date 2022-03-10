@@ -4,7 +4,6 @@ public class Q7 {
 
     public String solution(String str){
         String answer = "YES";
-        String temp  = "";
         str = str.toUpperCase();
 
         /*
@@ -15,16 +14,13 @@ public class Q7 {
         }
         */
         
-
-        temp = new StringBuilder(str).reverse().toString();
+        String temp = new StringBuilder(str).reverse().toString();
         for(int i = 0; i < str.length(); i++){
             if(str.charAt(i)!= temp.charAt(i)){
                 answer = "NO";
                 break;
             }
         }
-
-        
 
         return answer;
     }
