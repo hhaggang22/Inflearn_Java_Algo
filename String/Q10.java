@@ -20,7 +20,6 @@ public class Q10 {
         for(int k = str.length()-1; k > -1; k--){
             if(str.charAt(k) == c){
                 p = 0; 
-                answer[k] = p; //이미 들어가있으니까 굳이 해줄 필요 없음
             }
             else{
                 p++;
