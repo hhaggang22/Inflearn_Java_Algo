@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Q5 {
+public class Q05 {
 
     public String solution(String str){
         String answer = "";
@@ -30,7 +30,7 @@ public class Q5 {
     }
 
     public static void main(String[] args){
-        Q5 T = new Q5();
+        Q05 T = new Q05();
 
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
