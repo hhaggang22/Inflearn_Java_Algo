@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Q3 {
+public class Q03 {
     public String solution(String str){
         String answer = "";
         int max = 0;
@@ -18,7 +18,7 @@ public class Q3 {
     }
 
     public static void main(String[] args){
-        Q3 T = new Q3();
+        Q03 T = new Q03();
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
 
