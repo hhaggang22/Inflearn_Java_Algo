@@ -9,7 +9,6 @@ public class Q12 {
             int num = Integer.parseInt(tmp, 2);
             answer += (char)num;
             str = str.substring(7);
-
         }
 
         return answer;
@@ -18,7 +17,7 @@ public class Q12 {
     public static void main(String[] args){
         Q12 T = new Q12();
         Scanner sc = new Scanner(System.in);
-
+        
         int n = sc.nextInt();
         String str = sc.next();
 
