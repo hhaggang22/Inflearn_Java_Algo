@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q8 {
+public class Q08 {
     public String solution(String str){
         String answer = "NO";
 
@@ -20,7 +20,7 @@ public class Q8 {
     }
     
     public static void main(String[] args){
-        Q8 T = new Q8();
+        Q08 T = new Q08();
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         System.out.println(T.solution(str));
