@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Q6 {
+public class Q06 {
     public String solution(String str){
         String answer = "";
         for(int i = 0; i < str.length() ; i++){
@@ -13,7 +13,7 @@ public class Q6 {
     }
 
     public static void main(String[] args){
-        Q6 T = new Q6();
+        Q06 T = new Q06();
         Scanner sc = new Scanner(System.in);
 
         String str = sc.nextLine();
