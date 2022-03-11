@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Q4 {
+public class Q04 {
 
     public ArrayList<String> solution(int n, String[] str){
         ArrayList<String> answer = new ArrayList<>();
@@ -31,7 +31,7 @@ public class Q4 {
     }
 
     public static void main(String[] args){
-        Q4 T = new Q4();
+        Q04 T = new Q04();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
